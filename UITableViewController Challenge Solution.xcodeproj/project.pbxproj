@@ -14,13 +14,15 @@
 		3A83E72118B2C8D000A40AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83E72018B2C8D000A40AE5 /* main.m */; };
 		3A83E72518B2C8D000A40AE5 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83E72418B2C8D000A40AE5 /* ABAppDelegate.m */; };
 		3A83E72818B2C8D000A40AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A83E72618B2C8D000A40AE5 /* Main.storyboard */; };
-		3A83E72B18B2C8D000A40AE5 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83E72A18B2C8D000A40AE5 /* ABViewController.m */; };
 		3A83E72D18B2C8D000A40AE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A83E72C18B2C8D000A40AE5 /* Images.xcassets */; };
 		3A83E73418B2C8D000A40AE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A83E73318B2C8D000A40AE5 /* XCTest.framework */; };
 		3A83E73518B2C8D000A40AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A83E71418B2C8D000A40AE5 /* Foundation.framework */; };
 		3A83E73618B2C8D000A40AE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A83E71818B2C8D000A40AE5 /* UIKit.framework */; };
 		3A83E73E18B2C8D000A40AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A83E73C18B2C8D000A40AE5 /* InfoPlist.strings */; };
 		3A83E74018B2C8D000A40AE5 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83E73F18B2C8D000A40AE5 /* UITableViewController_Challenge_SolutionTests.m */; };
+		3A83E74B18B2CC0600A40AE5 /* ABTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83E74A18B2CC0600A40AE5 /* ABTest.m */; };
+		3A83E74E18B2D99800A40AE5 /* ABCDEFG.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83E74D18B2D99800A40AE5 /* ABCDEFG.m */; };
+		3A83E75118B2DAAC00A40AE5 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83E75018B2DAAC00A40AE5 /* ABViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		3A83E72318B2C8D000A40AE5 /* ABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
 		3A83E72418B2C8D000A40AE5 /* ABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
 		3A83E72718B2C8D000A40AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A83E72918B2C8D000A40AE5 /* ABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
-		3A83E72A18B2C8D000A40AE5 /* ABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
 		3A83E72C18B2C8D000A40AE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3A83E73218B2C8D000A40AE5 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A83E73318B2C8D000A40AE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3A83E73B18B2C8D000A40AE5 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		3A83E73D18B2C8D000A40AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A83E73F18B2C8D000A40AE5 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		3A83E74918B2CC0600A40AE5 /* ABTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTest.h; sourceTree = "<group>"; };
+		3A83E74A18B2CC0600A40AE5 /* ABTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTest.m; sourceTree = "<group>"; };
+		3A83E74C18B2D99800A40AE5 /* ABCDEFG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCDEFG.h; sourceTree = "<group>"; };
+		3A83E74D18B2D99800A40AE5 /* ABCDEFG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCDEFG.m; sourceTree = "<group>"; };
+		3A83E74F18B2DAAC00A40AE5 /* ABViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABViewController.h; path = ../ABViewController.h; sourceTree = "<group>"; };
+		3A83E75018B2DAAC00A40AE5 /* ABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABViewController.m; path = ../ABViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 		3A83E70818B2C8D000A40AE5 = {
 			isa = PBXGroup;
 			children = (
+				3A83E74918B2CC0600A40AE5 /* ABTest.h */,
+				3A83E74A18B2CC0600A40AE5 /* ABTest.m */,
+				3A83E74C18B2D99800A40AE5 /* ABCDEFG.h */,
+				3A83E74D18B2D99800A40AE5 /* ABCDEFG.m */,
 				3A83E71A18B2C8D000A40AE5 /* UITableViewController Challenge Solution */,
 				3A83E73918B2C8D000A40AE5 /* UITableViewController Challenge SolutionTests */,
 				3A83E71318B2C8D000A40AE5 /* Frameworks */,
@@ -115,9 +125,9 @@
 				3A83E72318B2C8D000A40AE5 /* ABAppDelegate.h */,
 				3A83E72418B2C8D000A40AE5 /* ABAppDelegate.m */,
 				3A83E72618B2C8D000A40AE5 /* Main.storyboard */,
-				3A83E72918B2C8D000A40AE5 /* ABViewController.h */,
-				3A83E72A18B2C8D000A40AE5 /* ABViewController.m */,
 				3A83E72C18B2C8D000A40AE5 /* Images.xcassets */,
+				3A83E74F18B2DAAC00A40AE5 /* ABViewController.h */,
+				3A83E75018B2DAAC00A40AE5 /* ABViewController.m */,
 				3A83E71B18B2C8D000A40AE5 /* Supporting Files */,
 			);
 			path = "UITableViewController Challenge Solution";
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A83E74E18B2D99800A40AE5 /* ABCDEFG.m in Sources */,
 				3A83E72118B2C8D000A40AE5 /* main.m in Sources */,
-				3A83E72B18B2C8D000A40AE5 /* ABViewController.m in Sources */,
+				3A83E74B18B2CC0600A40AE5 /* ABTest.m in Sources */,
 				3A83E72518B2C8D000A40AE5 /* ABAppDelegate.m in Sources */,
+				3A83E75118B2DAAC00A40AE5 /* ABViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
